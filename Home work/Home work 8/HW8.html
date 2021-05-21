@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HW8</title>
+</head>
+<style>
+.conteiner{
+    width: 1170px;
+    margin: auto;
+
+}
+.background{
+    background-image: url(img/cat-2.jpeg);
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0px;
+}
+.first h1{
+    width: 50%;
+    text-align: center;
+
+}
+.first p{
+    width: 50%;
+    text-transform: lowercase;
+    text-indent: 20px;
+
+}
+.second{
+    width: 50%;
+    position: relative;
+    float: right;
+    top: -190px;
+
+}
+
+.input{
+    width: 100%;
+}
+</style>
+<body>
+    <div class="background">
+    <div class="first">
+        <h1>Лесной кот</h1>
+        <p>Лесная кошка обитает в Европе, на Ближнем Востоке, в Средней и Центральной Азии, в Африке.
+             Охотится на мелких грызунов и других животных подобного размера, реже — на птиц. 
+             Она поселяется там, где нет недостатка в мышевидных грызунах, реже охотится на зайцев, кроликов и птиц, гнездящихся на земле. 
+             Лишь в очень редких случаях ей удаётся поймать детёныша оленя или косули и то при условии, что звери были ослаблены и не могли скрыться[7]. 
+            Обычно охотятся поодиночке. Существуют несколько подвидов, обитающих в разных регионах.</p>
+    </div>
+    <div class="second">
+        <form action="/action.php" id="form" name="form">
+            <p><input type="text" class="input name_input" name="name" id="name" maxlength="12" requier placeholder="Ваше имя"/></p>
+            <p><input type="tel" class="input name_input" name="tel" id="tel" maxlength="12" requier placeholder="Телефон"/> </p>
+            <p><textarea class="textarea" name="textarea" id="textarea" maxlength="60" placeholder="Ваше сообщение"></textarea></p>
+            <p><button class="button">Отправить</button></p>
+
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
