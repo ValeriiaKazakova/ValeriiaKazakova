@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HW10</title>
+</head>
+<style>
+
+.wraper_model{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgb( 0, 0, 0.5);
+
+}
+.model{
+    z-index: 9999;
+    background: silver;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -190px;
+    width: 300px;
+    height: 380px;
+    border: solid #000 2px;
+
+}
+.model h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: maroon;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.closed{
+    z-index: 99999;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    cursor: pointer;
+    color: maroon;
+    font-weight: bold;
+}
+.form{
+    width: 250px;
+    padding: 10px;
+
+}
+.input{
+    font-size: 16px;
+    color: darkslategray;
+    border:none;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    outline: none;
+    margin-bottom: 18px;
+    margin-left: 5px;
+
+}
+.button{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 100px;
+    color: lightyellow;
+    cursor: pointer;
+    background-color: maroon;
+
+}
+</style>
+
+<body>
+    <div class="wrapper_model">
+        <div class="model">
+            <h2>Записаться на прием</h2>
+            <span class="closed">Х</span>
+            <form class ="form" id="form" name="form">
+                <input type="text" name="name" id="name" class="input" placeholder="ИМЯ">
+                <input type="tel" name="tel" id="tel" class="input" maxlength="12" placeholder="ТЕЛЕФОН"/> 
+                <input type="email" name="email" id="email" class="input" placeholder="E-MAIL">
+                <input type="textarea" name="textarea" id="textarea" class="input" placeholder="СООБЩЕНИЕ">
+                <button class="button" type="button">Отправить</button>
+    
+            </form>
+        </div>
+    
+    </div>
+    
+    </body>
+    </html>
+    
