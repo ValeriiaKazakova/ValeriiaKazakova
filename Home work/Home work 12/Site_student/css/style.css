@@ -137,11 +137,11 @@ html{
     width: 500px;
     padding: 20px;
 }
-.parent_text_slid h2{
+.parent_text_slide h2{
     font-size: 50px;
     margin-bottom: 20px;
 }
-.parent_text_slid p{
+.parent_text_slide p{
     font-size: 20px;
 }
 #slider-baner .owl-nav .owl-prev{
