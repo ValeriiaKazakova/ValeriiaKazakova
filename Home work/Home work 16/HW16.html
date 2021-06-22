@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HW16</title>
+</head>
+<style>
+    .zombie{
+        background-image: url("img/zombie.png");
+        width: calc(1536px/6);
+        height: 254px;
+        margin: 0 auto;
+        animation-name: zombie;
+        animation-duration: 1s;
+        animation-timing-function: steps(6);
+        animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes zombie{
+        from{
+            background-position: 0px;
+
+        }
+        to{
+            background-position: -1536px;
+
+        }
+    }
+    @-moz-keyframes zombie{
+        from{
+            background-position: 0px;
+
+        }
+        to{
+            background-position: -1536px;
+
+        }
+    }
+    @-o-keyframes zombie{
+        from{
+            background-position: 0px;
+
+        }
+        to{
+            background-position: -1536px;
+
+        }
+    }
+    @keyframes zombie{
+        from{
+            background-position: 0px;
+
+        }
+        to{
+            background-position: -1536px;
+
+        }
+    }
+
+</style>
+<body>
+    <div class="zombie"></div>
+</body>
+</html>
