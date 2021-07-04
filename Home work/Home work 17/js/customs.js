@@ -5,13 +5,13 @@ jQuery(document).ready(function () {
     'use strict';
 	
 		jQuery(".fancybox").fancybox();
+		
 
-
-	 let slid = jQuery('#review_carousel');
+	let slid = jQuery('#review_carousel');
 		
 	slid.owlCarousel({
 		items: 1,
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 6000,
 		autoplayHoverPause: false,
 		smartSpeed: 1000,

@@ -8,12 +8,15 @@ body,
 html{
     height: 100%;
 }
+html{
+    scroll-behavior: smooth;
+}
 .for_page{
     position: relative;
     min-height: 100%;
 }
 .page{
-    padding-bottom: 94px;
+    padding-bottom: 103px;
 }
 body{
     font-family: 'ralewayregular';
@@ -196,8 +199,8 @@ img{
     margin-right: 5px;
 }
 .social-team a i:hover{
-    color: antiquewhite;
-    border: solid 1px antiquewhite;
+    color: steelblue;
+    border: solid 1px steelblue;
 }
 .perent_review_carousel{
     display: flex;
@@ -205,20 +208,16 @@ img{
 .bg_review_carousel{
     width: 50%;
     background: url(../img/img-lady.jpg) no-repeat;
-    height: 700px;
+    height: 500px;
     background-size: cover;
     background-position: top  right;
 }
 .owl_carousel{
     overflow: hidden;
 }
-.owl_carousel_wrapp{
-    position: absolute;
-}
 .review_carousel_owl{
     width: 50%;
     background: #53354a;
-    height: 700px;
     background-size: cover;
     padding: 98px 82px;
 }
@@ -299,7 +298,6 @@ img{
 .footer{
     background: #3a3e64;
     width: 100%;
-    padding: 20px 0;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -323,26 +321,31 @@ img{
     text-align: center;
 }
 .social_icons{
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
     
     }
-    .social_icons a{
-        display: block;
+.social_icons a{
+    display: block;
     }
-    .social_icons a i{
-        color: #fff;
-        font-size: 22px;
-        display: block;
-        width: 40px;
-        height: 40px;
-        border: solid 1px #fff;
-        box-sizing: border-box;
-        padding-top: 8px;
-        text-align: center;
-        margin-right: 5px;
+ .social_icons a i{
+    color: #fff;
+    font-size: 22px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-align: center;
+    margin-right: 5px;
+    transition: all 0.7s;
     }
+.social_icons a i:hover{
+    color: steelblue;
+    border: solid 1px steelblue;
+}
 .finish_block{
     background: #313454;
     padding-top: 30px;
