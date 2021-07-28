@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (min-width: 1200px){
+.for_page .container {
+    max-width: 1030px;
+}
+}
+
+@media(max-width: 1199px){
+	.nav-menu ul.sub-menu li a button {
+    font-size: 14px;
+	}
+	.info-cont .telephone {
+    font-size: 19px;
+	}
+}
+@media(max-width: 991px){
+	.nav-menu{
+		display: none;
+		position: fixed;
+		background: #fff;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		padding: 40px;
+	}
+	.nav-menu ul.sub-menu li a button:hover {
+    color:aqua;
+}
+	.nav-menu ul.sub-menu li a button {
+    font-size: 16px;
+    color: #000;
+		    padding-bottom: 6px;
+}
+	.nav-menu ul.sub-menu {
+    display: block;
+	}
+	.responsive-nav {
+        display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+	.responsive-nav-name{
+		font-family: 'Conv_HelveticaNeueCyr-Roman';
+		font-size: 24px;
+		color: #fff;
+	}
+	.icon-humburher i{
+		color: #fff;
+		font-size: 24px;
+		transition: 0.7;
+		cursor: pointer;
+	}
+	.icon-humburher i:hover{
+		color: #4FB1E5;
+	}
+	.closed{
+		display: block;
+		position: absolute;
+    	right: 33px;
+    	top: 20px;
+		
+	}
+	.closed i{
+		cursor: pointer;
+		font-size: 24px;
+		transition: 0.7s;
+	}
+	.closed i:hover{
+		color: aqua;
+	}
+	.block2 h1 {
+		font-size: 30px;
+		line-height: 35px;
+		margin-bottom: 0px;
+	}
+	.bg-lapsharezka{
+        background: url("../img/Lapsha_bg.png") no-repeat;
+        padding-bottom: 80px;
+        background-position: center;
+        }
+	.sale_prise_new {
+			font-family: 'Conv_HelveticaNeueCyr-Bold';
+			font-size: 30px;
+		}
+	
+	.form_sale input {
+		width: 100%;
+		border: none;
+		margin-bottom: 15px;
+		padding: 12px;
+		border: solid 1px #4FB1E5;
+		font-family: 'Conv_HelveticaNeueCyr-Roman';
+		font-size: 16px;
+		color: #605c64;
+	}
+
+	.image-window_fl {
+    	top: 0px;
+	}
+	.image-window_fr {
+		top: 0px;
+	}
+	.parent-img-povar {
+		display: none;
+	}
+	.politics a button:focus, .politics a button {
+		font-size: 20px;
+	}
+	.partnership a button:focus, .partnership a button {
+		font-size: 20px;
+	}
+	.block_img{
+		margin-bottom: 10px;
+	}
+	.image_block{
+		justify-content: space-around;
+		padding-left: 80px;
+	}
+	
+}
+@media(max-width: 767px){
+	.responsive-nav-name {
+        font-size: 20px;
+        }
+    .icon-humburher i {
+        font-size: 21px;
+        }
+	.block2 h1 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.form-counter {
+        margin-right: 2px;
+        padding-top: 12px;
+        }
+    .countdown .countSeconds, 
+    .countdown .countDays, 
+    .countdown .countMinutes, 
+    .countdown .countHours {
+        width: 55px;
+        height: 55px;
+        padding: 2px;
+        }   
+    .countdown .countSeconds  .digit , 
+    .countdown .countDays  .digit , 
+    .countdown .countMinutes .digit , 
+    .countdown .countHours  .digit {
+        width: 12px;;
+        font-size: 29px;
+        height: 40px;
+        margin-top: 2px;
+        margin-left: 2px;
+        }
+    .countdown  .countDays p,
+    .countdown  .countHours p,
+    .countdown  .countMinutes p,
+    .countdown  .countSeconds p {
+        font-size: 10px;
+        }
+    #countdown .position {
+        font-size: 30px;
+        height: 38px;
+        width: 16px;
+        }
+		.block3 h3 {
+			font-size: 22px;
+		}
+		.block4 h2 {
+			font-size: 25px;
+			margin-bottom: 30px;
+			line-height: 30px;
+		}
+		.image_block h2 {
+			font-size: 25px;
+			margin: 15px;
+			line-height: 30px;
+		}
+		.image-window_fl {
+			width: 200px;
+		}
+		.image-window_fr {
+			width: 200px;
+		}
+		.block5 h2 {
+			font-size: 25px;
+			margin-bottom: 20px;
+		}
+		.block6 h2 {
+			font-size: 25px;
+			margin-bottom: 20px;
+		}
+		a.btn {
+			font-size: 20px;
+		}
+		.text-footer p {
+			font-size: 16px;
+		}
+	
+	
+}
+@media(max-width: 600px){
+	.image_block {
+		padding-left: 30px;
+	}
+	
+}
+@media(max-width: 500px){
+	.block2 h1 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.sale {
+		font-size: 20px;
+	}
+	.block_img img{
+		display: block;
+		margin: 0 auto;
+	}
+	.block3 h3 {
+		font-size: 20px;
+	}
+	.block4 h2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		line-height: 25px;
+	}
+	.image_block h2 {
+		font-size: 20px;
+	}
+	.rules h3 {
+		font-size: 20px;
+	}
+	.rules2 h3, .rules3 h3 {
+		font-size: 20px;
+	}
+	.block5 h2 {
+		font-size: 20px;
+	}
+	.block6 h2 {
+		font-size: 20px;
+	}
+	.reviews-box-text h3 {
+		font-size: 14px;
+	}
+	.politics {
+		justify-content: center;
+		margin-bottom: 5px;
+	}
+	.partnership {
+		justify-content: center;
+	}
+}
+@media(max-width: 470px){
+	
+}
+@media(max-width: 400px){
+	.responsive-nav-name {
+        font-size: 17px;
+        padding-top: 10px;
+        }
+    .icon-humburher i {
+        font-size: 15px;
+        padding-top: 10px;
+        }
+    .closed i {
+       font-size: 13px;
+    }
+	.image-window_fl {
+		display: none;
+	}
+	.image-window_fr {
+		display: none;
+	}
+	.list li {
+		font-size: 12px;
+	}
+	.block3 h3 {
+		font-size: 14px;
+	}
+	.block2 h1 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.block4 h2 {
+		font-size: 18px;
+	}
+	.image_block h2 {
+		font-size: 18px;
+	}
+	.rules h3 {
+		font-size: 18px;
+	}
+	.rules2 h3, .rules3 h3 {
+		font-size: 18px;
+	}
+	.block5 h2 {
+		font-size: 18px;
+	}
+	.block6 h2 {
+		font-size: 18px;
+	}
+	
+	
+}
+
