@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CW</title>
+</head>
+
+<body>
+    <div id="name1"></div>
+</body>
+<script>
+     let user = {
+        firstName : "Maya",
+        lastName : "Dos",
+        language: " ",
+        name: " ",
+        set nameCat(nameCat){
+            this.name = nameCat;
+        },
+        'name Dog' : " Profi",
+        set lang(lang){
+				this.language = lang;
+        }
+      };
+
+       
+  
+        user.lang = "ua";
+        document.getElementById("name1").innerHTML = "Set method" + ": " + user.language;
+		console.log(user);
+
+
+       
+
+      user.nameCat = "nameCat";
+    document.getElementById("name1").innerHTML = "Set method" + ": " + user.name;
+		console.log(user);
+
+    delete user['name Dog'];
+    console.log(user);
+    
+</script>
+</html>

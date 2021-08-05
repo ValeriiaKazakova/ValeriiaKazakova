@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HW27_1</title>
+</head>
+<body>
+    <div class="paragraf" id="paragraf"> 
+        <p>Для указания языка документа авторам рекомендуется прописывать атрибут языка в корневом элементе html. 
+            Это поможет инструментам синтеза речи определить какое произношение использовать, а инструментам перевода - какие правила, и так далее.
+
+            Подробнее познакомиться с атрибутом lang можно в спецификации
+        </p>
+            <a href="#" class="btn">Больше</a>
+        </div>
+            <div class="continue" id="continue">
+                <p>Кодировка символов
+                Явно объявив кодировку символов, вы быстро и легко обеспечите правильное отображение вашего контента. 
+                При этом, вы сможете избежать использования символьных сущностей в вашем HTML-коде, при условии, что их кодировка совпадает 
+                с кодировкой документа (как правило, UTF-8).</p>
+            </div>
+            <a href="#" class="btn">Закрыть</a>
+
+    <script>
+        function openBox(paragraf){
+			let display = document.getElementById("continue").style.display;
+			if(display =='none'){
+				document.getElementById("paragraf").style.display="block";
+			}else{
+				document.getElementById("continue").style.display="none";
+			}
+		};
+
+
+    </script>
+  
+</body>
+</html>
