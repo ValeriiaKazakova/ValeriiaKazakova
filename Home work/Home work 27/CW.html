@@ -20,23 +20,24 @@
         'name Dog' : " Profi",
         set lang(lang){
 				this.language = lang;
+        }, 
+        get nameCat(){
+          return this.name;
+        },
+        get lang(){
+          return this.language;
         }
       };
 
        
   
         user.lang = "ua";
-        document.getElementById("name1").innerHTML = "Set method" + ": " + user.language;
-		console.log(user);
-
-
-       
-
-      user.nameCat = "nameCat";
-    document.getElementById("name1").innerHTML = "Set method" + ": " + user.name;
-		console.log(user);
+        user.name = "nameCat";
 
     delete user['name Dog'];
+    for(let item in user){
+      document.write(item + "-" + user[item] + '<br>')
+    }
     console.log(user);
     
 </script>
